@@ -13,6 +13,7 @@ export const AddItem = () => {
     const categoriesSelector: any = useSelector((state: prodacts[]) => state);
     const [category, setCategory] = React.useState<string>();
     const [prodactName, setProdactName] = React.useState<string>();
+    
     const dispatch = useDispatch();
 
     const handleChange = (event: SelectChangeEvent) => {
